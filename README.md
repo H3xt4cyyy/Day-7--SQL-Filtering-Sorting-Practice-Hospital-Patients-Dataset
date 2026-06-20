@@ -1,21 +1,30 @@
-# Day 7: SQL Filtering & Sorting Practice
+# 🏥 Hospital Data Analytics — SQL Filtering & Sorting Practice
 
-![SQL](https://img.shields.io/badge/Language-SQL-blue?style=for-the-badge)
-![Data Analytics](https://img.shields.io/badge/Focus-Data_Analytics-green?style=for-the-badge)
+A comprehensive data analytics practice repository focused on extracting operational, financial, and clinical insights from a hospital patient dataset using structured SQL queries.
 
-Database scripting and analysis for core hospital operational scenarios.
+## 📁 Repository Structure
 
-## 📋 Scenarios Matrix
+This project is divided into three main sections based on my Day 7 training curriculum:
 
-| Scenario | Target Audience | Key SQL Operators | Goal |
-| :--- | :--- | :--- | :--- |
-| **01. ICU Report** | Medical Director | `WHERE`, `AND`, `ORDER BY` | Identify critical resource utilization |
-| **02. Geriatrics** | Committee | `BETWEEN`, `IN`, `ORDER BY` | Track senior high-risk admissions |
-| **03. Finance Audit**| Billing Dept | `BETWEEN`, `IN`, `LIMIT` | Flag high-value insurance outliers |
-| **04. Research Search**| Oncology Team | `LIKE` Wildcards, `ORDER BY` | Study cancer pattern demographics |
-| **05. Front Desk** | Supervisor | `BETWEEN`, `IN`, `LIMIT` | Generate real-time Q3 dashboard |
+### 📂 ACTIVITY 1: SQL Filter & Sort Foundation
+Contains `Day07_SQL_Exercises_RyanJasonDaquioag.sql`, a script of 15 queries demonstrating core database retrieval techniques using a local `Day07_practice.db` database. 
+* **Part A:** Multi-conditional logic (`AND`, `OR`, `NOT`)
+* **Part B:** Range and pattern matching (`BETWEEN`, `IN`, `LIKE`)
+* **Part C:** Data sorting and prioritization (`ORDER BY`, `LIMIT`)
 
-## 🚀 How to Run the Script
-1. Clone this repository to your local machine.
-2. Import your hospital schema or `patients` table into your SQL environment.
-3. Open and execute `Day07_Hospital_Queries_RynJsnDqg.sql` to generate the reports.
+### 📂 ACTIVITY 2: Operational Hospital Scenarios
+Contains `Day07_Hospital_Queries_RynJsnDqg.sql`, focusing on translating raw data into real-world business insights for hospital administration.
+* **ICU Critical Care:** Identified critical cardiovascular bottlenecks (Dr. Reyes managing 66% of ICU capacity).
+* **Senior Citizen Analysis:** Tracked severe demographic trends across Cardiology, Oncology, and Neurology.
+* **High-Value Billing:** Flagged premium insurance outliers (₱100k–₱250k) exclusively isolated to Private Oncology and ICU Cardiology patients.
+* **Diagnosis Pattern Search:** Utilized wildcard string matching to track cancer severity and cost-by-stage trends.
+* **Q3 Admissions Dashboard:** Built a time-bounded operational view of stable/discharged patients.
+
+### 📂 JOURNAL: Reflective Learning
+Contains `Day07_Journal_RyanJasonDaquioag.docx`, detailing my conceptual understanding of query order of operations, operator use-cases (`LIKE` vs `IN`), and real-world database design applications (e.g., tracking ER spikes during natural disasters).
+
+---
+
+## 🛠️ Tech Stack & SQL Concepts Used
+* **Database Engine:** Relational Database (SQL) / VS Code SQLTools
+* **Key Syntax:** `WHERE`, conditional operators, wildcard searches, sorting precedence.
